@@ -1,0 +1,5 @@
+composer install (if required --ignore_req=php)
+php artsian migrate
+php artsian db:seed
+php artsian key_genewration
+php artsian serve
